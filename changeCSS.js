@@ -27,7 +27,7 @@ function changeCSS(select, cssArray){
 //pass through (as parameter 2) - array - each matrix of Array strips all CSS class and adds
 
 //eg
-//runArray('myClass', [['class1', class2'], ['class1', 'class3', 'class4'],['class1', 'class5']]);
+//cssFromArray('myClass', [['class1', class2'], ['class1', 'class3', 'class4'],['class1', 'class5']]);
 async function cssFromArray(select, time, array){
     for(var i=0; i<=array.length; i++){
       await wait(time).then(()=>{
