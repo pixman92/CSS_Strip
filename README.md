@@ -3,7 +3,7 @@ a simple JS function that Strips all CSS from a DOM elem, and then adds all clas
 
 This function - takes 1) a selected class target & 2) a Single CSS Array
 ```Javascript
-funtion changeCSS(select, cssArray)
+changeCSS(select, cssArray)
 ```
 eg
 changeCSS('text', ['class1', 'class2']
