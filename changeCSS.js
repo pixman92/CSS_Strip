@@ -35,3 +35,8 @@ async function cssFromArray(select, time, array){
       });
     }
 }
+
+//helper function - to make 'await wait(time).then(()=>{});' to work
+function wait(timeout){
+    return new Promise(resolve=>setTimeout(resolve, timeout));
+}
