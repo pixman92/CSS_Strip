@@ -28,9 +28,9 @@ function changeCSS(select, cssArray){
 
 //eg
 //runArray('myClass', [['class1', class2'], ['class1', 'class3', 'class4'],['class1', 'class5']]);
-async function cssFromArray(select, array){
+async function cssFromArray(select, time, array){
     for(var i=0; i<=array.length; i++){
-      await wait(500).then(()=>{
+      await wait(time).then(()=>{
         changeCSS(select, array[i]);  
       });
     }
