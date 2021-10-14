@@ -1,6 +1,10 @@
 # CSS_Strip
 a simple JS function that Strips all CSS from a DOM elem, and then adds all class names in 2nd param
 
+
+
+
+
 This function - takes 1) a selected class target & 2) a Single CSS Array
 ```Javascript
 changeCSS(select, cssArray)
